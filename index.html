@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body background="background.png">
+    <!-- Bannière du restaurant -->
+    <center><img src="banniere.png" alt=""></center>
+    <!-- Adresse du restaurant -->
+    <p><center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5413.459269340525!2d3.5350335797296397!3d45.850094613224314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd66075f198c01546!2sle%20choix%20des%20mets!5e1!3m2!1sfr!2sfr!4v1666864909348!5m2!1sfr!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    <video src="demo_food.mp4" style="width: 400" height="300" controls></video></center>
+    <!-- Menu -->
+    <center><h1>Carte du mois d'Octobre</h1></center>
+    <center>
+        <fieldset>
+            <h1>Entrées</h1>
+            <table border="1">
+                <tr>
+                    <td><center><b>Foie gras 13€</b><br><img src="foie_gras.png" alt=""><br><p>Foie gras de tradition Limagne, déclinaison sur le coing.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td>
+                    <td><center><b>Pounti végétarien 8€</b><br><img src="pounti_vege.png" alt=""><br><p>Pounti végétarien sur une salade de fenouil.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td>
+                    <td><center><b>Terrine de lapin 8€</b><br><img src="terrine_lapin.png" alt=""><br><p>Terrine de lapin aux cèpes.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td>
+                </tr>
+            </table>
+            <h1>Plats</h1>
+            <table border="1">
+                <tr>
+                    <td><center><b>Pot au feu 23€</b><br><img src="pot_feu.png" alt=""><br><p>Pot au feu de bœuf français au foie gras, consommé de pomme coing.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td></center></td>
+                    <td><center><b>Poitrine de veau 12€</b><br><img src="gnocchis.png" alt=""><br><p>Poitrine de veau braisée, julienne de betteraves et gnocchis sauce aux noix.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td></center></td>
+                    <td><center><b>Poisson du moment 12€</b><br><img src="poisson.png" alt=""><br><p>Poisson du moment et sa julienne de betteraves et gnocchis sauce aux noix.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td></center></td>
+                </tr>
+            </table>
+            <h1>Desserts</h1>
+            <table border="1">
+                <tr>
+                    <td><center><b>Tiramisu 7€</b><br><img src="tiramisu.png" alt=""><br><p>Tiramisu aux figues au sirop verveine et crème de marrons.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td></center></td>
+                    <td><center><b>Clafoutis 7€</b><br><img src="clafoutis.png" alt=""><br><p>Clafoutis aux olives noires confites, caramel au fenouil.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td></center></td>
+                    <td><center><b>Assiette de fromages affinés 7€</b><br><img src="fromage.png" alt=""><br><p>Assiette de fromages affinés de nos producteurs locaux.</p><br><p>Quantité</p><input type="number" step="1" value="0"><input type="button" value="Ajouter"></center></td></center></td>
+                </tr>
+            </table><br>
+        <p><em>Total TTC :</em> -- €</p><br><br>
+        <a href="#formulaire" ><input type="submit" value="Commander"></a>
+        
+        </fieldset>
+    </center>
+
+<center><form action="" id="formulaire">
+        <fieldset>
+            <center><b>Entrez vos coordonnées</b></center><br><br>
+            <table>
+                <tr>
+                <td><label for="">Nom</label></td> 
+                <td><input type="text"><br><br></td> 
+                </tr>
+                <tr>
+                <td><label for="">Prénom</label></td> 
+                <td><input type="text"><br><br></td>       
+                </tr>
+                <tr>
+                <td><label for="">Adresse</label></td> 
+                <td><input type="text"><br><br></td>
+                </tr>
+                <tr>
+                <td><label for="">Code postal</label></td>
+                <td><input type="text"><br><br></td>
+                </tr>
+                <tr>
+                <td><label for="">Téléphone</label></td>
+                <td><input type="tel"><br><br></td>
+                </tr>
+                <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email"><br><br></td>
+                </tr>
+            </table></center>       
+        </fieldset>
+    </form>
+    <form action="">
+        <fieldset><center>
+            <table>
+                <tr>
+                    <td>
+                        <label for="">Moyen de paiement :</label><br>         
+                    </td>
+                    <td colspan="3">
+                        <select name="" id="">
+                            <option value="">Paypal</option>
+                            <option value="">Carte Bancaire</option>
+                            <option value="">Espèce</option>
+                            <option value="">Tickets restaurant</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="">Mode de livraison :</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="livraison" id="">
+                        <label for="">Chronofresh <b>3€</b></label>                  
+                    </td>
+                    <td>
+                        <input type="radio" name="livraison" id="">
+                        <label for="">Uber Eats <b>2€</b></label>                   
+                    </td>
+                    <td>
+                        <input type="radio" name="livraison" id="">
+                        <label for="">A emporter</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <textarea placeholder="Ecrivez ici toute info complémentaire" cols="100" rows="5"></textarea><br>
+                    </td>
+                </tr>
+            </table><br><input type="submit" value="Paiement"></center>
+        </fieldset>
+    </form>
+    
+
+
+</body>
+</html>
